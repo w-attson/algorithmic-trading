@@ -1,4 +1,4 @@
-![ml-alg-title](images/header-image.png)
+![ml-alg-title](Images/header-image.png)
 
 # Machine Learning Trading 
 
@@ -22,8 +22,8 @@ Below outlines the steps taken in the project:
 
 ### SVM Model
 
-![svm-model](images/svm-model-4-100-3.png)
-![svm-model-report](images/svm-model-4-100-3-report.png)
+![svm-model](Images/svm-model-4-100-3.png)
+![svm-model-report](Images/svm-model-4-100-3-report.png)
 
 ## Tune the Baseline Trading Algorithm
 * Tune the model’s input features to find the parameters that result in the best trading outcomes. (You’ll choose the best by comparing the cumulative products of the strategy returns.) To do so, complete the following steps:
@@ -36,16 +36,16 @@ Below outlines the steps taken in the project:
 * Answer the following questions: Did this new model perform better or worse than the provided baseline model? Did this new model perform better or worse than your tuned trading algorithm?
 
 #### Logistic Regression Model
-![lr-model](images/lr-model-4-100-3.png)
-![lr-model-report](images/lr-model-4-100-3-report.png)
+![lr-model](Images/lr-model-4-100-3.png)
+![lr-model-report](Images/lr-model-4-100-3-report.png)
 
 #### Decision Tree Model
-![dt-model](images/dt-model-4-100-3.png)
-![dt-model-report](images/dt-model-4-100-3-report.png)
+![dt-model](Images/dt-model-4-100-3.png)
+![dt-model-report](Images/dt-model-4-100-3-report.png)
 
 #### AdaBoost Model
-![boost-model](images/boost-model-4-100-3.png)
-![boost-model-report](images/boost-model.png)
+![boost-model](Images/boost-model-4-100-3.png)
+![boost-model-report](Images/boost-model-4-100-3-report.png)
 
 
 ## Evaluation Report
@@ -53,41 +53,49 @@ Below outlines the steps taken in the project:
 * There are a few variables that were altered including:
     * short_window
     * long_window
-    * DateOFfset
+    * DateOffset
 
 These alterations created scenarios that output plots to indicate if the changes create either a net positive or net negative change.
 
 The following outputs are detailed accounts of the tests conducted:
 
-* SVM Model (
-    sma_short = 5
-    sma_long = 100
-    DataOffset = 3
-)
-![svm-model-5-100-3](images/svm-model-5-100-3.png)
-![svm-model-5-100-3-report](images/svm-model-5-100-3-report.png)
+* SVM Model \
+( \
+    sma_short = 5 \
+    sma_long = 100 \
+    DataOffset = 3 \
+) \
+\
+![svm-model-5-100-3](Images/svm-model-5-100-3.png)
+![svm-model-5-100-3-report](Images/svm-model-5-100-3-report.png)
 
+* SVM Model \
+( \
+    sma_short = 5 \
+    sma_long = 80 \
+    DataOffset = 3 \
+) \
+\
+![svm-model-5-100-3](Images/svm-model-5-80-3.png)
+![svm-model-5-100-3-report](Images/svm-model-5-80-3-report.png)
 
-* SVM Model (
-    sma_short = 5
-    sma_long = 80
-    DataOffset = 3
-)
-![svm-model-5-100-3](images/svm-model-5-80-3.png)
-![svm-model-5-100-3-report](images/svm-model-5-80-3-report.png)
+* SVM Model \
+( \
+    sma_short = 4 \
+    sma_long = 100 \
+    DataOffset = 6 \
+  \
+) \
+\
+![svm-model-5-100-3](Images/svm-model-4-100-6.png)
+![svm-model-5-100-3-report](Images/svm-model-4-100-6-report.png)
 
-* SVM Model (
-    sma_short = 4
-    sma_long = 100
-    DataOffset = 6
-)
-![svm-model-5-100-3](images/svm-model-4-100-6.png)
-![svm-model-5-100-3-report](images/svm-model-4-100-6-report.png)
-
-* SVM Model (
-    sma_short = 4
-    sma_long = 100
-    DataOffset = 10
-)
-![svm-model-5-100-3](images/svm-model-4-100-10.png)
-![svm-model-5-100-3-report](images/svm-model-4-100-10-report.png)
+* SVM Model \
+( \
+    sma_short = 4 \
+    sma_long = 100 \
+    DataOffset = 10 \
+) \
+\
+![svm-model-5-100-3](Images/svm-model-4-100-10.png)
+![svm-model-5-100-3-report](Images/svm-model-4-100-10-report.png)

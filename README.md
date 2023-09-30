@@ -59,34 +59,34 @@ These alterations created scenarios that output plots to indicate if the changes
 
 The following outputs are detailed accounts of the tests conducted:
 
-* SVM Model \
-    sma_short = 5 \
-    sma_long = 100 \
-    DataOffset = 3 \
+##### SVM Model
+    sma_short = 5
+    sma_long = 100
+    DataOffset = 3
 \
 ![svm-model-5-100-3](Images/svm-model-5-100-3.png)
 ![svm-model-5-100-3-report](Images/svm-model-5-100-3-report.png)
 
-* SVM Model \
-    sma_short = 5 \
-    sma_long = 80 \
-    DataOffset = 3 \
+##### SVM Model
+    sma_short = 5
+    sma_long = 80
+    DataOffset = 3
 \
 ![svm-model-5-80-3](Images/svm-model-5-80-3.png)
 ![svm-model-5-80-3](Images/svm-model-5-80-3-report.png)
 
-* SVM Model \
-    sma_short = 4 \
-    sma_long = 100 \
-    DataOffset = 6 \
+##### SVM Model
+    sma_short = 4
+    sma_long = 100
+    DataOffset = 6
 \
 ![svm-model-5-100-3](Images/svm-model-4-100-6.png)
 ![svm-model-5-100-3-report](Images/svm-model-4-100-6-report.png)
 
-* SVM Model \
-    sma_short = 4 \
-    sma_long = 100 \
-    DataOffset = 10 \
+##### SVM Model
+    sma_short = 4
+    sma_long = 100
+    DataOffset = 10
 \
 ![svm-model-5-100-3](Images/svm-model-4-100-10.png)
 ![svm-model-5-100-3-report](Images/svm-model-4-100-10-report.png)

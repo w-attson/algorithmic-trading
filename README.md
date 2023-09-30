@@ -63,7 +63,9 @@ The following outputs are detailed accounts of the tests conducted:
     sma_short = 5
     sma_long = 100
     DataOffset = 3
-\
+
+* During this testing the sma_short window was changed by one day (5). The results showed negative effects towards sell (-1) indicators and positive influence on buy (1) indicators. 
+
 ![svm-model-5-100-3](Images/svm-model-5-100-3.png)
 ![svm-model-5-100-3-report](Images/svm-model-5-100-3-report.png)
 
@@ -71,7 +73,9 @@ The following outputs are detailed accounts of the tests conducted:
     sma_short = 5
     sma_long = 80
     DataOffset = 3
-\
+    
+* During this testing the sma_long window was changed by twenty days (80). Decreasing the sma_long window indicated negative effects on the trading algorithm overall, but individual factors had positive outcomes. This indicates significant care should be taken if further analysis is conducted. 
+  
 ![svm-model-5-80-3](Images/svm-model-5-80-3.png)
 ![svm-model-5-80-3](Images/svm-model-5-80-3-report.png)
 
@@ -79,7 +83,9 @@ The following outputs are detailed accounts of the tests conducted:
     sma_short = 4
     sma_long = 100
     DataOffset = 6
-\
+
+* During this testing the original values of the short and long window were used with the DataOffset value altered. Overall, the data showed a positive increase in trends towards the end of the predictions. Recall and f1-score for sell are low, indication low reliability of the algorithmic change.
+  
 ![svm-model-5-100-3](Images/svm-model-4-100-6.png)
 ![svm-model-5-100-3-report](Images/svm-model-4-100-6-report.png)
 
@@ -87,6 +93,10 @@ The following outputs are detailed accounts of the tests conducted:
     sma_short = 4
     sma_long = 100
     DataOffset = 10
-\
+    
+* During this testing the original values of the short and long window were used with the DataOffset value altered. Overall, the data showed a positive increase in trends towards the end of the predictions. Recall and f1-score for sell are low, indication low reliability of the algorithmic change.
+
 ![svm-model-5-100-3](Images/svm-model-4-100-10.png)
 ![svm-model-5-100-3-report](Images/svm-model-4-100-10-report.png)
+
+Utilisation of different classifiers showed mixed results. Overall, incorporation of different classifiers with altered variables applied to each respective trading environment will be useful in model optimisation in the future. 
